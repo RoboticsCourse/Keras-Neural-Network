@@ -1,0 +1,13 @@
+https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Pixel_manipulation_with_canvas
+https://ml-with-tensorflow.info/2017/03/01/svm-with-tensorflow/
+
+data.json # converted form your data, see images directory
+
+extractFeatures.py > features.txt # run this to extract the data from data.json to features.txt
+features.txt # produced as above
+classify.py # build the model and save it. Updated so that it determines the shape of the data itself
+            # you might want to tweak the number of layers.
+
+testClassifier.py # load the model and run on a given image (not yet updated!!!)
+
+checkpointsGOOD # copied checkpoints when I got a good training run. May be a false good result though!!

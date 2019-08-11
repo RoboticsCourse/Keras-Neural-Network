@@ -1,0 +1,12 @@
+https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Pixel_manipulation_with_canvas
+https://ml-with-tensorflow.info/2017/03/01/svm-with-tensorflow/
+
+getRectangles.py # run this on images to add to data.txt
+data.txt # added to by getRectangles.py
+
+extractFeatures.py > features.txt # run this to extract the data from data.txt and the underlying rectangles to features.txt
+features.txt # produced as above
+classify.py # build the model and save it
+testClassifier.py # load the model and run on a given image
+
+
